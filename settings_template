@@ -1,0 +1,21 @@
+configure({
+  course_folder: '/c/course',
+
+  git: {
+    ssh_key: '$HOME/.ssh/id_rsa' ,
+
+    name: "REPLACE WITH YOUR NAME",
+
+    email: "REPLACE WITH YOUR EMAIL ADDRESS",
+
+    install_path: '/c/utils/git'
+  },
+
+  ruby: {
+    install_path: '/c/ruby/200',
+  },
+
+  mingw: {
+    install_path: '/c/utils/mingw'
+  }
+})

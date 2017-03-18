@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    arrayfu (1.0.0)
+    configatron (4.2.0)
+    expansions (0.4.33)
+      arrayfu (>= 1.0.0)
+      configatron (>= 4.1.0)
+      mustache (>= 0.99.5)
+    mustache (0.99.6)
+    thor (0.19.1)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  expansions
+  thor
